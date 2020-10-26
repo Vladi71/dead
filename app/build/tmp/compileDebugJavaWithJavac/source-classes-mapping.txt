@@ -1,2 +1,4 @@
+ru/netology/nmedia/databinding/ActivityMainBinding.java
+ ru.netology.nmedia.databinding.ActivityMainBinding
 ru/netology/nmedia/BuildConfig.java
  ru.netology.nmedia.BuildConfig

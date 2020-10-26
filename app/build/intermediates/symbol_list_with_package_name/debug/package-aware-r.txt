@@ -823,6 +823,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable red_like_avatars
 drawable share_avatars
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -966,8 +967,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageView
-id imageView2
 id imgAvatar
 id info
 id invisible
@@ -977,6 +976,7 @@ id jumpToEnd
 id jumpToStart
 id layout
 id left
+id likeAvatarViews
 id line1
 id line3
 id linear
@@ -1029,6 +1029,7 @@ id search_plate
 id search_src_text
 id search_voice_btn
 id select_dialog_listview
+id shareAvatarsView
 id shortcut
 id showCustom
 id showHome
@@ -1068,8 +1069,6 @@ id textContent
 id textPublished
 id textSpacerNoButtons
 id textSpacerNoTitle
-id textView2
-id textView3
 id time
 id title
 id titleDividerNoCustom
@@ -1077,6 +1076,9 @@ id title_template
 id toggle
 id top
 id topPanel
+id totalLikeView
+id totalShareView
+id totalViewsView
 id transitionToEnd
 id transitionToStart
 id triangle
@@ -1084,6 +1086,7 @@ id unchecked
 id uniform
 id up
 id useLogo
+id viewsAvatarView
 id visible
 id withText
 id wrap
