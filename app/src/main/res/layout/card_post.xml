@@ -7,14 +7,13 @@
     tools:context=".MainActivity">
 
 
-
     <ImageView
         android:id="@+id/imgAvatar"
         android:layout_width="48dp"
         android:layout_height="48dp"
+        app:layout_constraintBottom_toBottomOf="@id/barrier"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="@id/barrier"
         app:srcCompat="@mipmap/ic_launcher" />
 
 
@@ -66,14 +65,14 @@
         android:id="@+id/textContent"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="@dimen/common_spacing"
+        android:layout_marginEnd="8dp"
         android:autoLink="web"
+        android:text="@string/textContent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/barrier"
-        android:text="@string/textContent"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="16dp"/>
+        app:layout_constraintTop_toBottomOf="@id/barrier" />
 
     <androidx.constraintlayout.widget.Barrier
         android:id="@+id/barrier2"

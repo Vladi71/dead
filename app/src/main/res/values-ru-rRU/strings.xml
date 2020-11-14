@@ -8,4 +8,7 @@
     <string name="numberLikes">10</string>
     <string name="numberShare">5</string>
     <string name="numberViews">19</string>
+    <string name="post_text">post_text</string>
+    <string name="description_post_like">description_post_like</string>
+    <string name="post_texts">Что у Вас нового?</string>
 </resources>

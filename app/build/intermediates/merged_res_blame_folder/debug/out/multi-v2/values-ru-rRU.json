@@ -6,11 +6,9 @@
                 {
                     "source": "C:\\Users\\Admin\\AndroidStudioProjects\\nmedia\\app\\src\\main\\res\\values-ru-rRU\\dimens.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endColumns": "45",
-                        "endOffsets": "98"
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
                     },
                     "to": {
                         "startLines": "2",
@@ -23,18 +21,18 @@
                 {
                     "source": "C:\\Users\\Admin\\AndroidStudioProjects\\nmedia\\app\\src\\main\\res\\values-ru-rRU\\strings.xml",
                     "from": {
-                        "startLines": "6,5,2,3,7,8,9,4",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "714,660,57,102,801,845,888,145",
-                        "endColumns": "85,52,43,41,42,41,42,513",
-                        "endOffsets": "795,708,96,139,839,882,926,654"
+                        "startLines": "-1,-1,-1,11,-1,-1,-1,-1,10,12,-1",
+                        "startColumns": "-1,-1,-1,4,-1,-1,-1,-1,4,4,-1",
+                        "startOffsets": "-1,-1,-1,981,-1,-1,-1,-1,932,1054,-1",
+                        "endColumns": "-1,-1,-1,71,-1,-1,-1,-1,47,56,-1",
+                        "endOffsets": "-1,-1,-1,1048,-1,-1,-1,-1,975,1106,-1"
                     },
                     "to": {
-                        "startLines": "3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "101,187,240,284,326,369,411,454",
-                        "endColumns": "85,52,43,41,42,41,42,513",
-                        "endOffsets": "182,235,279,321,364,406,449,963"
+                        "startLines": "3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "101,187,240,284,356,398,441,483,526,574,631",
+                        "endColumns": "85,52,43,71,41,42,41,42,47,56,513",
+                        "endOffsets": "182,235,279,351,393,436,478,521,569,626,1140"
                     }
                 }
             ]

@@ -24,7 +24,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\Admin\AppData\Local\Temp\baseline_favorite_24.xml" />
+                                                <entry key="imagePath" value="C:\Users\Admin\AppData\Local\Temp\baseline_create_24.xml" />
                                                 <entry key="opacityPercent" value="80" />
                                               </map>
                                             </option>
@@ -36,7 +36,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/favorite/baseline_favorite_24.xml" />
+                                                <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/create/baseline_create_24.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -60,6 +60,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
+                                                <entry key="opacityPercent" value="60" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -71,6 +72,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
+                                                <entry key="opacityPercent" value="60" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -80,9 +82,9 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="outputName" value="red_like_avatars" />
+                                      <entry key="outputName" value="blue_pain_avatars" />
                                       <entry key="theme" value="CUSTOM" />
-                                      <entry key="themeColor" value="e50014" />
+                                      <entry key="themeColor" value="136de5" />
                                     </map>
                                   </option>
                                 </PersistentState>
