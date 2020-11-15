@@ -156,6 +156,10 @@
         "source": "C:\\Users\\Admin\\AndroidStudioProjects\\nmedia\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\nmedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable_selector_likes.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\nmedia\\app\\src\\main\\res\\drawable\\selector_likes.xml"
+    },
+    {
         "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\nmedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_share_avatars.xml.flat",
         "source": "C:\\Users\\Admin\\AndroidStudioProjects\\nmedia\\app\\src\\main\\res\\drawable-anydpi\\share_avatars.xml"
     },
@@ -168,12 +172,12 @@
         "source": "C:\\Users\\Admin\\AndroidStudioProjects\\nmedia\\app\\src\\main\\res\\drawable-anydpi\\blue_pain_avatars.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\nmedia\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\nmedia\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\nmedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_blue_save_avatars.png.flat",
         "source": "C:\\Users\\Admin\\AndroidStudioProjects\\nmedia\\app\\src\\main\\res\\drawable-hdpi\\blue_save_avatars.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\nmedia\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\nmedia\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\nmedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_share_avatars.png.flat",
@@ -200,16 +204,20 @@
         "source": "C:\\Users\\Admin\\AndroidStudioProjects\\nmedia\\app\\src\\main\\res\\drawable-anydpi\\blue_save_avatars.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\nmedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_save_avatars.xml.flat",
-        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\nmedia\\app\\src\\main\\res\\drawable-anydpi\\save_avatars.xml"
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\nmedia\\app\\build\\intermediates\\res\\merged\\debug\\color_selector_like_color.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\nmedia\\app\\src\\main\\res\\color\\selector_like_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\nmedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_blue_pain_avatars.png.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\nmedia\\app\\src\\main\\res\\drawable-xhdpi\\blue_pain_avatars.png"
     },
     {
         "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\nmedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_blue_cancel_avatars.png.flat",
         "source": "C:\\Users\\Admin\\AndroidStudioProjects\\nmedia\\app\\src\\main\\res\\drawable-hdpi\\blue_cancel_avatars.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\nmedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_blue_pain_avatars.png.flat",
-        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\nmedia\\app\\src\\main\\res\\drawable-xhdpi\\blue_pain_avatars.png"
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\nmedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_save_avatars.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\nmedia\\app\\src\\main\\res\\drawable-anydpi\\save_avatars.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\nmedia\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_blue_pain_avatars.png.flat",

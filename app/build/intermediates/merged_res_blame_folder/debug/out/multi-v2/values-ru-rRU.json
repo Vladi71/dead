@@ -6,9 +6,11 @@
                 {
                     "source": "C:\\Users\\Admin\\AndroidStudioProjects\\nmedia\\app\\src\\main\\res\\values-ru-rRU\\dimens.xml",
                     "from": {
-                        "startLines": "-1",
-                        "startColumns": "-1",
-                        "startOffsets": "-1"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "45",
+                        "endOffsets": "98"
                     },
                     "to": {
                         "startLines": "2",
@@ -21,11 +23,11 @@
                 {
                     "source": "C:\\Users\\Admin\\AndroidStudioProjects\\nmedia\\app\\src\\main\\res\\values-ru-rRU\\strings.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,11,-1,-1,-1,-1,10,12,-1",
-                        "startColumns": "-1,-1,-1,4,-1,-1,-1,-1,4,4,-1",
-                        "startOffsets": "-1,-1,-1,981,-1,-1,-1,-1,932,1054,-1",
-                        "endColumns": "-1,-1,-1,71,-1,-1,-1,-1,47,56,-1",
-                        "endOffsets": "-1,-1,-1,1048,-1,-1,-1,-1,975,1106,-1"
+                        "startLines": "6,5,2,11,3,7,8,9,10,12,4",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "714,660,57,981,102,801,845,888,932,1054,145",
+                        "endColumns": "85,52,43,71,41,42,41,42,47,56,513",
+                        "endOffsets": "795,708,96,1048,139,839,882,926,975,1106,654"
                     },
                     "to": {
                         "startLines": "3,4,5,6,7,8,9,10,11,12,13",
