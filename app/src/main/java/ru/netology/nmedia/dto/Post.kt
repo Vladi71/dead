@@ -1,6 +1,5 @@
 package ru.netology.nmedia.dto
 
-import kotlinx.android.synthetic.main.activity_main.view.*
 import ru.netology.nmedia.R
 
 data class Post(
@@ -12,5 +11,6 @@ data class Post(
         val numberLike: Int,
         val numberShare: Int,
         val numberViews: Int,
-        val likeByMy: Boolean = false
+        val likeByMy: Boolean = false,
+        val video: String = ""
 )

@@ -11,4 +11,5 @@
     <string name="post_text">post_text</string>
     <string name="description_post_like">description_post_like</string>
     <string name="post_texts">Что у Вас нового?</string>
+    <string name="url_Video">Введите ссылку на видео</string>
 </resources>

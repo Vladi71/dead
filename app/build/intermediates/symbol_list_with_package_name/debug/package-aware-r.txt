@@ -1524,6 +1524,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable add_avatars
 drawable avd_hide_password
 drawable avd_show_password
 drawable blue_cancel_avatars
@@ -1567,6 +1568,7 @@ drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
+drawable new_mess_avatars
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -1579,6 +1581,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable play_avatars
 drawable red_like_avatars
 drawable save_avatars
 drawable selector_likes
@@ -1655,6 +1658,8 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addPostView
+id addVideoView
 id alertTitle
 id aligned
 id all
@@ -1674,7 +1679,9 @@ id beginOnFirstDraw
 id beginning
 id blocking
 id bottom
+id bottomAppBar
 id bounce
+id btmSave
 id buttonPanel
 id cache_measures
 id cancelEdit
@@ -1734,6 +1741,7 @@ id dropdown_menu
 id easeIn
 id easeInOut
 id easeOut
+id editContentView
 id editPostView
 id editTextAuthor
 id editTextContent
@@ -1849,6 +1857,7 @@ id pathRelative
 id peekHeight
 id percent
 id pin
+id playVideoView
 id position
 id postLayout
 id progress_circular
@@ -1863,7 +1872,6 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
-id saveView
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -1953,7 +1961,6 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
-id toolsTop
 id top
 id topPanel
 id touch_outside
@@ -1969,6 +1976,7 @@ id unchecked
 id uniform
 id unlabeled
 id up
+id urlVideo
 id useLogo
 id view_offset_helper
 id viewsAvatarView
@@ -2038,7 +2046,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_edit_post
+layout activity_intent_handler2
 layout activity_main
+layout activity_new_post
 layout card_post
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -2208,6 +2219,7 @@ string post_texts
 string search_menu_title
 string status_bar_notification_info_overflow
 string textContent
+string url_Video
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="@dimen/common_spacing"
-    tools:context=".MainActivity">
+    tools:context=".Activity.MainActivity">
 
 
     <ImageView
@@ -43,7 +43,6 @@
         app:layout_constraintTop_toBottomOf="@id/textAuthor" />
 
 
-
     <androidx.constraintlayout.widget.Barrier
         android:id="@+id/barrier"
         android:layout_width="wrap_content"
@@ -79,11 +78,11 @@
         android:layout_marginEnd="8dp"
         android:background="@android:color/transparent"
         app:icon="@drawable/menu_avatars"
+        app:iconTint="@color/cardview_dark_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textAuthor"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/menu_avatars"
-        app:iconTint="@color/cardview_dark_background"/>
+        app:srcCompat="@drawable/menu_avatars" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/likeAvatarViews"
@@ -91,7 +90,6 @@
         android:layout_width="83dp"
         android:layout_height="33dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
         android:insetTop="2dp"
         android:insetRight="2dp"
         android:insetBottom="4dp"
@@ -103,7 +101,7 @@
         app:iconPadding="2dp"
         app:iconTint="@color/selector_like_color"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/barrier2" />
+        app:layout_constraintTop_toBottomOf="@+id/playVideoView" />
 
 
     <com.google.android.material.button.MaterialButton
@@ -112,7 +110,6 @@
         android:layout_width="82dp"
         android:layout_height="33dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
         android:insetTop="2dp"
         android:insetRight="2dp"
         android:insetBottom="4dp"
@@ -123,7 +120,7 @@
         app:icon="@drawable/share_avatars"
         app:iconTint="@color/cardview_dark_background"
         app:layout_constraintStart_toEndOf="@+id/likeAvatarViews"
-        app:layout_constraintTop_toBottomOf="@+id/textContent"
+        app:layout_constraintTop_toBottomOf="@+id/playVideoView"
         app:srcCompat="@drawable/share_avatars" />
 
     <com.google.android.material.button.MaterialButton
@@ -131,7 +128,6 @@
         style="@style/AppCheckableButton"
         android:layout_width="80dp"
         android:layout_height="32dp"
-        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:insetTop="2dp"
         android:insetRight="2dp"
@@ -143,7 +139,29 @@
         app:icon="@drawable/views_avatars"
         app:iconTint="@color/cardview_dark_background"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textContent" />
+        app:layout_constraintTop_toBottomOf="@+id/playVideoView" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/playVideoView"
+        android:layout_width="355dp"
+        android:layout_height="166dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        android:autoLink="web"
+        android:background="@color/cardview_dark_background"
+        android:paddingStart="135dp"
+        android:text="https://netology.ru/profile/program/and-13/schedule"
+        android:textColorHighlight="#00FFFFFF"
+        android:textColorLink="#00FFFFFF"
+        android:visibility="visible"
+        app:backgroundTint="#676464"
+        app:icon="@drawable/play_avatars"
+        app:iconSize="80dp"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textContent"
+        app:srcCompat="@drawable/play_avatars" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

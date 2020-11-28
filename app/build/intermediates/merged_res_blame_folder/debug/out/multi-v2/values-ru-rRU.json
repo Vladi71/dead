@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Admin\\AndroidStudioProjects\\nmedia\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ru-rRU\\values-ru-rRU.xml",
+            "outputFile": "C:\\Users\\Anna\\AndroidStudioProjects\\nmedia\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ru-rRU\\values-ru-rRU.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Admin\\AndroidStudioProjects\\nmedia\\app\\src\\main\\res\\values-ru-rRU\\dimens.xml",
+                    "source": "C:\\Users\\Anna\\AndroidStudioProjects\\nmedia\\app\\src\\main\\res\\values-ru-rRU\\dimens.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,20 +21,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Admin\\AndroidStudioProjects\\nmedia\\app\\src\\main\\res\\values-ru-rRU\\strings.xml",
+                    "source": "C:\\Users\\Anna\\AndroidStudioProjects\\nmedia\\app\\src\\main\\res\\values-ru-rRU\\strings.xml",
                     "from": {
-                        "startLines": "6,5,2,11,3,7,8,9,10,12,4",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "714,660,57,981,102,801,845,888,932,1054,145",
-                        "endColumns": "85,52,43,71,41,42,41,42,47,56,513",
-                        "endOffsets": "795,708,96,1048,139,839,882,926,975,1106,654"
+                        "startLines": "6,5,2,11,3,7,8,9,10,12,4,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "714,660,57,981,102,801,845,888,932,1054,145,1112",
+                        "endColumns": "85,52,43,71,41,42,41,42,47,56,513,61",
+                        "endOffsets": "795,708,96,1048,139,839,882,926,975,1106,654,1169"
                     },
                     "to": {
-                        "startLines": "3,4,5,6,7,8,9,10,11,12,13",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "101,187,240,284,356,398,441,483,526,574,631",
-                        "endColumns": "85,52,43,71,41,42,41,42,47,56,513",
-                        "endOffsets": "182,235,279,351,393,436,478,521,569,626,1140"
+                        "startLines": "3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "101,187,240,284,356,398,441,483,526,574,631,1145",
+                        "endColumns": "85,52,43,71,41,42,41,42,47,56,513,61",
+                        "endOffsets": "182,235,279,351,393,436,478,521,569,626,1140,1202"
                     }
                 }
             ]

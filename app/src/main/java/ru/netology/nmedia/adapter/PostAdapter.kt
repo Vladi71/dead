@@ -1,6 +1,7 @@
 package ru.netology.nmedia.adapter
 
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
 import android.widget.PopupMenu
 import androidx.recyclerview.widget.DiffUtil
@@ -14,10 +15,11 @@ import ru.netology.nmedia.utils.Utils
 
 interface OnItemClickListener {
     fun onLike(post: Post) {}
-    fun onShare(post: Post) {}
+    fun onView(post: Post) {}
     fun onEdit(post: Post) {}
     fun onRemove(post: Post) {}
     fun onCancelEdit(post: Post) {}
+    fun onShare(post: Post) {}
 
 }
 
@@ -39,7 +41,7 @@ class PostAdapter(
 
 class PostViewHolder(
         private val binding: CardPostBinding,
-        private val onInteractionListener: OnItemClickListener
+        private val onItemClickListener: OnItemClickListener
 ) : RecyclerView.ViewHolder(binding.root) {
 
     fun bind(post: Post) {
@@ -52,6 +54,13 @@ class PostViewHolder(
             viewsAvatarView.text = Utils.formatTotal(post.numberViews)
             shareAvatarsView.text = Utils.formatTotal(post.numberShare)
             likeAvatarViews.text = Utils.formatTotal(post.numberLike)
+            playVideoView.text = post.video
+
+            if (post.video == "") {
+                playVideoView.visibility = View.GONE
+            } else {
+               playVideoView.visibility = View.VISIBLE
+            }
 
             menuAvatar.setOnClickListener {
                 PopupMenu(it.context, it).apply {
@@ -59,12 +68,12 @@ class PostViewHolder(
                     setOnMenuItemClickListener { item ->
                         when (item.itemId) {
                             R.id.removePostView -> {
-                                onInteractionListener.onRemove(post)
+                                onItemClickListener.onRemove(post)
 
                                 true
                             }
                             R.id.editPostView -> {
-                                onInteractionListener.onEdit(post)
+                                onItemClickListener.onEdit(post)
                                 true
                             }
                             else -> false
@@ -73,10 +82,13 @@ class PostViewHolder(
                 }.show()
             }
             binding.likeAvatarViews.setOnClickListener {
-                onInteractionListener.onLike(post)
+                onItemClickListener.onLike(post)
             }
             binding.viewsAvatarView.setOnClickListener {
-                onInteractionListener.onShare(post)
+                onItemClickListener.onView(post)
+            }
+            binding.shareAvatarsView.setOnClickListener {
+                onItemClickListener.onShare(post)
             }
         }
     }
