@@ -1,12 +1,12 @@
 ru/netology/nmedia/databinding/ActivityIntentHandler2Binding.java
  ru.netology.nmedia.databinding.ActivityIntentHandler2Binding
-ru/netology/nmedia/databinding/ActivityEditPostBinding.java
- ru.netology.nmedia.databinding.ActivityEditPostBinding
+ru/netology/nmedia/databinding/CardPostBinding.java
+ ru.netology.nmedia.databinding.CardPostBinding
 ru/netology/nmedia/databinding/ActivityMainBinding.java
  ru.netology.nmedia.databinding.ActivityMainBinding
 ru/netology/nmedia/databinding/ActivityNewPostBinding.java
  ru.netology.nmedia.databinding.ActivityNewPostBinding
 ru/netology/nmedia/BuildConfig.java
  ru.netology.nmedia.BuildConfig
-ru/netology/nmedia/databinding/CardPostBinding.java
- ru.netology.nmedia.databinding.CardPostBinding
+ru/netology/nmedia/databinding/ActivityEditPostBinding.java
+ ru.netology.nmedia.databinding.ActivityEditPostBinding
